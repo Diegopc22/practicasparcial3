@@ -11,7 +11,7 @@ class validar():
         else:
             self.con = 0
             return False
-    def ValidarLetra(self,dato):
+    def ValidarLetra(self, dato):
         if dato == "":
             return True
         if ord(dato[0])>=65 and ord(dato[0])<=90 or ord(dato[0])>=97 and ord(dato[0])<=122 or ord(dato[0]) == 32:
